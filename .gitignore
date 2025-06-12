@@ -1,0 +1,34 @@
+# Zig build artifacts
+zig-out/
+.zig-cache/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.debug
+*.pdb
+*.ilk
+
+# Test artifacts
+test-results/
+*.test
+
+# Optional: Ignore local override files
+build.zig.local
